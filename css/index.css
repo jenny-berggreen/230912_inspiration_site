@@ -21,7 +21,7 @@ header {
 
 	z-index: 1;
 
-	background-color: pink;
+	background-color: rgb(254, 214, 220);
 	box-shadow: 0px 0px 20px #000000b1;
 }
 
@@ -105,7 +105,7 @@ main {
 
 .grid-item__image-container:hover {
 	cursor: pointer;
-	border-color: pink;
+	border-color: rgb(254, 168, 183);
 }
 
 .grid-item__text-container {
