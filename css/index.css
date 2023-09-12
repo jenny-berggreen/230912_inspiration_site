@@ -10,6 +10,8 @@ body {
 /* ---------------------------- header ---------------------------- */
 
 header {
+	display: flex;
+	justify-content: center;
 	width: inherit;
 	height: 10%;
 	background-color: antiquewhite;
