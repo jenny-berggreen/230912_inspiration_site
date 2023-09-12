@@ -7,6 +7,7 @@ body {
 	margin: 0;
     padding: 0%;
 	
+	background-color: rgb(249, 249, 249);
 }
 
 /* ---------------------------- header ---------------------------- */
@@ -17,6 +18,8 @@ header {
 
 	width: inherit;
 	height: 10%;
+
+	background-color: white;
 }
 
 /* ---------------------------- spotlight ---------------------------- */
@@ -51,12 +54,16 @@ header {
 
 main {
 	width: inherit;
-	background-color: beige;
 }
 
 .main__headline {
 	display: flex;
 	justify-content: center;
+
+	padding: 1%;
+
+	font-size: 30px;
+	font-family: 'Inter-Thin';
 }
 
 /* ---------------------------- grid ---------------------------- */
@@ -70,14 +77,39 @@ main {
 	width: inherit;
 
 	padding: 20px;
-	
-	background-color: lightblue;
 }
 
 .grid-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2%;
+
 	width: 430px;
-	height: 300px;
-	background-color: grey;
+	height: 330px;
+}
+
+.grid-item__image-container {
+	width: inherit;
+	height: 80%;
+
+	border: solid 10px white;
+
+	background-color: lightgrey;
+}
+
+.grid-item__image-container:hover {
+	cursor: pointer;
+	border-color: yellow;
+}
+
+.grid-item__text-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: inherit;
+	height: 20%;
 }
 
 /* ---------------------------- footer ---------------------------- */
@@ -90,5 +122,5 @@ footer {
 	width: inherit;
 	height: 20%;
 
-	background-color: lightsalmon;
+	background-color: white;
 }
