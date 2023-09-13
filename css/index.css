@@ -43,7 +43,14 @@ header {
 	width: 70%;
 	height: 75%;
 
+	border: solid 10px white;
+
 	background-color: lightgray;
+}
+
+.spotlight__image-container:hover {
+	cursor: pointer;
+	border-color: rgb(254, 168, 183);
 }
 
 .spotlight__text-container {
