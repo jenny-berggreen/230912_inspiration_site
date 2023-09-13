@@ -61,7 +61,7 @@ header {
 
 .spotlight__image-container {
 	width: 60%;
-	height: 68%;
+	height: 75%;
 
 	border: solid 10px white;
 
@@ -75,17 +75,23 @@ header {
 
 .spotlight__text-container {
 	width: 60%;
-	height: 15%;
+	margin-top: 1%;
+}
 
-	margin-top: 5px;
+.spotlight__site-link {
+	text-decoration: none;
+	color: pink; 
+}
 
-	background-color: lightgray;
+.spotlight__site-link:hover {
+	color: rgb(254, 168, 183); 
 }
 
 /* ---------------------------- main ---------------------------- */
 
 main {
 	width: inherit;
+	margin-bottom: 3%;
 }
 
 .main__headline {
@@ -114,17 +120,15 @@ main {
 .grid-item {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	gap: 2%;
+	gap: 3%;
 
 	width: 430px;
-	height: 330px;
+	height: 300px;
 }
 
 .grid-item__image-container {
 	width: inherit;
-	height: 80%;
+	height: 90%;
 
 	border: solid 10px white;
 
@@ -137,12 +141,14 @@ main {
 	border-color: rgb(254, 168, 183);
 }
 
-.grid-item__text-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: inherit;
-	height: 20%;
+.grid-item__site-link {
+	width: fit-content;
+	text-decoration: none;
+	color: rgb(230, 148, 161); 
+}
+
+.grid-item__site-link:hover {
+	color: rgb(198, 75, 95); 
 }
 
 /* ---------------------------- footer ---------------------------- */
