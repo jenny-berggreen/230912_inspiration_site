@@ -25,23 +25,43 @@ header {
 	box-shadow: 0px 0px 20px #000000b1;
 }
 
+.header__headline {
+	letter-spacing: 2px;
+}
+
 /* ---------------------------- spotlight ---------------------------- */
 
 .spotlight-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-evenly;
 
 	width: inherit;
 	height: 90%;
 
+	padding-top: 1%;
+	padding-bottom: 1%;
+
 	background-color: rgb(150, 150, 150);
 }
 
+.spotlight__headline {
+	display: flex;
+	justify-content: center;
+	width: 60%;
+
+	margin-top: 1%;
+
+	font-family: 'Inter-ExtraBold';
+	font-size: 40px;
+	color: white;
+	text-shadow: 0px 5px 5px rgb(254, 168, 183);
+	
+}
+
 .spotlight__image-container {
-	width: 70%;
-	height: 75%;
+	width: 60%;
+	height: 68%;
 
 	border: solid 10px white;
 
@@ -54,8 +74,10 @@ header {
 }
 
 .spotlight__text-container {
-	width: 70%;
+	width: 60%;
 	height: 15%;
+
+	margin-top: 5px;
 
 	background-color: lightgray;
 }
